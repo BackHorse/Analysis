@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Compile-theory:war">
+    <output-path>$PROJECT_DIR$/../Compile-theory/target</output-path>
+    <root id="archive" name="Compile-theory-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Compile-theory:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,57 @@
+body{
+    background: #7cea9d;
+}
+.box{
+    width: 50%;
+    margin: 20px auto;
+    background: #8a737857;
+    padding: 20px;
+    box-shadow: 1px 1px 3px #666;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    text-shadow: 0px 0px 2px #000;
+}
+h2{
+    color: #fff;
+    text-shadow: 0px 0px 1px #000;
+}
+h5{
+    color: #fff;
+    text-shadow: 0px 0px 0.5px #000;
+}
+a{
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #fff;
+    background: #607bc7;
+    box-shadow: 0px 0px 3px #000;
+    border-radius: 5px; /*圆角*/
+}
+a:hover{
+    padding: 6px 9px;
+    background: #000;
+}
+.fileList{
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    border-bottom: 1px solid #666;
+    margin: 0;
+}
+
+/*解决子元素的浮动导致自己没高度*/
+ul:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+ul:nth-child(odd){
+    background: #676767;
+    color: #ffffff;
+}
+li{
+    float: left;
+}
